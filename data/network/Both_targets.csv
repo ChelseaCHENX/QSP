@@ -1,0 +1,61 @@
+﻿Chemical_Name,CMap_Rank,CMap_Score,Description,Target,MOA
+Ochratoxin-a,19,99.67,Phenylalanyl tRNA synthetase inhibitor,SLC22A6,Phenylalanyl tRNA synthetase inhibitor
+APHA-compound-8,36,99.12,HDAC inhibitor,HDAC8,HDAC inhibitor
+JAK3-Inhibitor-II,38,99.09,JAK inhibitor,"EGFR, ALK, JAK1, JAK2, JAK3, LTK, FLT3, TNK2, STK10, MKNK2, PTK6, RET, MAP4K5, ERBB4, MKNK1, ERBB2, YES1, RIPK2, EPHA7, FLT4, LCK, SLK, HCK, EPHB4",JAK inhibitor
+Fostamatinib,42,99.03,SYK inhibitor,"AAK1, ABL1, ABL2, ACVR1, ACVR1B, ADORA3, ALK, ALOX5, ANKK1, AURKA, AURKB, AURKC, AXL, BLK, BMP2K, BMPR1B, BMPR2, BMX, BRAF, BRD4, BTK, CAMK1, CAMK1D, CAMK1G, CAMK2A, CAMK2B, CAMK2D, CAMK2G, CAMKK1, CAMKK2, CASK, CDC42BPG, CDK1, CDK15, CDK16, CDK17, CDK4, CDKL1, CDKL2, CHEK1, CHEK2, CIT, CLASP1, CLK1, CLK2, CLK3, CLK4, COQ8A, COQ8B, CSF1R, CSK, CSN3, CSNK1A1, CSNK2A1, CSNK2A2, CTSL, CTSS, DAPK1, DAPK2, DAPK3, DCLK1, DCLK2, DCLK3, DDR1, DDR2, DYRK1A, DYRK1B, EGFR, EIF2AK1, EIF2AK2, EIF2AK4, EPHA1, EPHA2, EPHA3, EPHA4, EPHA5, EPHA6, EPHA7, EPHA8, EPHB1, EPHB2, EPHB4, EPHB6, ERBB2, ERBB4, ERN1, FAAH, FER, FES, FGFR1, FGFR2, FGFR3, FGR, FLT1, FLT4, FRK, FYN, GAK, GSK3A, GSK3B, HCK, HIPK2, HIPK3, ICK, IKBKB, IKBKE, INSR, INSRR, IRAK1, IRAK3, IRAK4, ITK, JAK1, JAK2, JAK3, KDR, KIT, LATS1, LCK, LIMK1, LIMK2, LRRK2, LTK, LYN, MAP2K2, MAP2K3, MAP2K5, MAP2K6, MAP3K1, MAP3K10, MAP3K11, MAP3K12, MAP3K13, MAP3K15, MAP3K19, MAP3K2, MAP3K3, MAP3K4, MAP3K6, MAP3K9, MAP4K1, MAP4K2, MAP4K3, MAP4K4, MAP4K5, MAPK10, MAPK13, MAPK14, MAPK15, MAPK4, MAPK7, MAPK9, MAPKAPK5, MARK1, MARK2, MARK3, MARK4, MAST1, MATK, MELK, MERTK, MET, MINK1, MKNK1, MKNK2, MST1R, MTOR, MUSK, MYLK, MYLK2, MYLK3, MYLK4, MYO3A, NEK1, NEK11, NEK2, NEK3, NEK4, NEK5, NEK9, NIM1K, NTRK1, NTRK2, NTRK3, NUAK1, NUAK2, OXSR1, PAK1, PAK2, PAK3, PAK4, PAK5, PAK6, PDE5A, PDGFRA, PDGFRB, PDPK1, PHKG1, PI4KB, PIK3C2B, PIK3C2G, PIK3CD, PIK3CG, PIM1, PIM3, PIP4K2B, PIP4K2C, PKMYT1, PKN1, PKN2, PLK1, PLK2, PLK3, PLK4, PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKACA, PRKACB, PRKAG1, PRKAG2, PRKAG3, PRKCD, PRKCE, PRKCG, PRKCI, PRKCQ, PRKD1, PRKG2, PRPF4B, PTK2, PTK2B, PTK6, RAF1, RIOK1, RIOK2, RIOK3, RIPK1, RIPK2, RIPK4, ROCK2, ROS1, RPS6KA1, RPS6KA3, RPS6KA6, SBK1, SBK3, SGK3, SIK1, SIK2, SIK3, SLC29A1, SLK, SNRK, SRC, SRMS, STK10, STK16, STK17A, STK17B, STK24, STK26, STK3, STK32A, STK33, STK35, STK36, STK38, STK38L, STK39, TAOK1, TAOK2, TAOK3, TBK1, TEC, TEK, TESK1, TGFBR1, TGFBR2, TIE1, TLK1, TLK2, TNIK, TNK1, TNK2, TNNI3K, TSSK1B, TTK, TXK, TYK2, TYRO3, UGT1A1, ULK1, ULK2, ULK3, VMAT2, WEE1, YES1, ZAK, ZAP70",SYK inhibitor
+QL-XI-92,48,98.85,DDR1 inhibitor,DDR1,DDR1 inhibitor
+PU-H71,55,98.68,HSP inhibitor,HSP90AA1,HSP inhibitor
+Benzatropine,60,98.54,Acetylcholine receptor antagonist,"CHRM1, HRH1, SLC6A3, SLC6A4, SLC6A2, CHRM3, CHRM4, CHRM5, CHRM2, ADRA1D, HTR2A, HTR2C, ADRA2B, ADRA2C, HTR2B, SIGMAR1, ADRA2A, DRD3, ADRA1B",Acetylcholine receptor antagonist
+AS-703026 (Pimasertib),61,98.49,MEK inhibitor,"MAP2K1, MAP2K2",MEK inhibitor
+7b-cis,63,98.48,Exportin antagonist,XPO1,Exportin antagonist
+Saracatinib,65,98.45,SRC inhibitor,"SRC, ABL1, LCK, YES1, KIT",SRC inhibitor
+WH-4023,73,98.2,SRC inhibitor,"ABL1, LCK, SRC",SRC inhibitor
+Hydrocortisone,76,98.07,Glucocorticoid receptor agonist,"ANXA1, NOS2, NR3C1, NR3C2, SERPINA6","Glucocorticoid receptor agonist, Immunosuppressant, Corticosteroid agonist"
+AZ-628,78,98,RAF inhibitor,"BRAF, RAF1, YES1",RAF inhibitor
+Xylazine,80,97.93,Adrenergic receptor agonist,"ADRA2A, ADRA2B, ADRA2C",Adrenergic receptor agonist
+UNC-0321,82,97.81,Histone lysine methyltransferase inhibitor,"EHMT2, EHMT1",Histone lysine methyltransferase inhibitor
+GDC-0879,90,97.5,RAF inhibitor,"BRAF, RAF1, CSNK1E, MAPK3",RAF inhibitor
+VU-0415374-1,93,97.39,Glutamate receptor modulator,"GRM4, GRM7, GRM8",Glutamate receptor modulator
+Thalidomide,95,97.25,TNF production inhibitor,"TNF, CRBN, CYP1A2, CYP2B6, CYP2C19, CYP3A5, FGFR2, NFKB1, ORM1, ORM2, PTGS2, DDB1",TNF production inhibitor
+XMD-1150,96,97.19,Leucine rich repeat kinase inhibitor,LRRK2,Leucine rich repeat kinase inhibitor
+JWE-035,98,97.18,Aurora kinase inhibitor,AURKA,Aurora kinase inhibitor
+GANT-58,99,97.08,GLI antagonist,"DHH, GLI1, IHH",GLI antagonist
+RHO-kinase-inhibitor-III (rockout),100,97.08,Rho associated kinase inhibitor,"PRKG2, MKNK2, IMPDH2, ROCK1",Rho associated kinase inhibitor
+Profenamine,107,96.91,Butyrylcholinesterase inhibitor,"CHRM1, BCHE, CHRM2, GRIN3A, ACHE","Butyrylcholinesterase inhibitor, Cholinergic receptor antagonist"
+SB-205384,108,96.9,GABA receptor modulator,"GABRA3, GABRA5, GABRA6",GABA receptor modulator
+GR-235,113,96.52,Estrogen receptor agonist,"ESR1, IKBKB, NR1H4, NR1I2, PGR","Estrogen receptor agonist, FXR antagonist, Progesterone receptor agonist"
+SB-590885,115,96.46,RAF inhibitor,BRAF,RAF inhibitor
+Halometasone,117,96.41,Glucocorticoid receptor agonist,NR3C1,Glucocorticoid receptor agonist
+Desipramine,122,96.16,Tricyclic antidepressant,"SLC6A2, SLC6A4, ADRA1A, ADRA1B, ADRA1D, ADRA2A, ADRA2B, ADRA2C, ADRB1, ADRB2, CHRM1, CHRM2, CHRM3, CHRM4, CHRM5, DRD2, HRH1, HTR1A, HTR2A, HTR2C, SMPD1, HTR2B, SLC6A1, SLC6A3, SLC6A6, SLC6A7, SLC6A8, SLC6A9, SLC6A11, SLC6A12, SLC6A13, SLC6A5, SLC6A14, SLC6A16, SLC6A20, SLC6A15, SLC6A19, SLC6A18, SLC6A17",Tricyclic antidepressant
+Fulvestrant,126,96,Estrogen receptor antagonist,"ESR1, EPHX2, ESR2, GPER1, ESRRA, NR1H4, NR1I2",Estrogen receptor antagonist
+TG-101348 (Fedratinib),130,95.86,FLT3 inhibitor,"JAK2, FLT3, BRD4, JAK1, JAK3, RET, TYK2, AAK1, ABL1, ACVR1, AXL, BMP2K, CAMK2A, CDK7, CIT, COQ8B, CSNK2A2, DAPK1, DAPK2, DAPK3, DCLK1, DCLK3, EIF2AK4, EPHB6, FGFR1, FGR, FRK, FYN, GAK, GRK4, HIPK4, IRAK1, IRAK3, KIT, LCK, MAP3K19, MAPK10, MAPK7, MAPK8, MAPK9, MARK3, MYLK4, NEK6, NEK7, NEK9, NUAK1, NUAK2, PDGFRB, PIP4K2B, PIP5K1A, PLK1, PLK4, PTK2, PTK2B, RIOK1, RIOK3, RPS6KA4, SIK1, SIK2, SNRK, SRC, SRPK1, SRPK2, SRPK3, STK16, STK17B, STK33, TBK1, TNK2, ULK1, ULK2, ULK3, YES1","FLT3 inhibitor, JAK inhibitor"
+KIN001-242,134,95.68,Protein kinase inhibitor,RPS6KA3,Protein kinase inhibitor
+ALW-II-38-3,136,95.67,Ephrin inhibitor,"DDR1, EPHA2, EPHA4, EPHB2, EPHB4, EPHB6",Ephrin inhibitor
+TPCA-1,140,95.17,IKK inhibitor,"AURKA, AURKB, AURKC, CDC42BPB, CHEK1, EIF2AK2, EPHA2, EPHB1, FGR, FLT3, IKBKB, JAK1, JAK2, LIMK1, MAP3K11, MAP3K9, NTRK2, NTRK3, NUAK1, RET, RPS6KA1, RPS6KA2, RPS6KA6, TNK2, TYK2, YES1",IKK inhibitor
+Cyproterone,146,94.56,Androgen receptor antagonist,"AR, ADORA1, ESR1","Androgen receptor antagonist, Progesterone receptor agonist, Testosterone receptor antagonist"
+Apicidin,151,94.19,HDAC inhibitor,"HDAC1, HDAC10, HDAC11, HDAC2, HDAC3, HDAC4, HDAC5, HDAC6, HDAC7, HDAC8, HDAC9, F3",HDAC inhibitor
+Amoxicillin,154,94.11,Penicillin binding protein inhibitor,SLC15A1,Penicillin binding protein inhibitor
+Clebopride,155,94.1,Dopamine receptor antagonist,"DRD2, ACHE, DRD3",Dopamine receptor antagonist
+Cisapride,164,93.67,Serotonin receptor agonist,"HTR4, KCNH2, CYP2B6, CYP2C8, CYP3A5, CYP3A7, HTR2A, HTR3A, HTR2B, HTR2C, ADRA1D, ADRA2C, DRD3, ADRA2B, DRD2, CYP2D6, ADRA1A, ADRA2A, ADRA1B, CYP3A4",Serotonin receptor agonist
+THM-I-94,166,93.6,HDAC inhibitor,"HDAC1, HDAC10, HDAC2, HDAC3, HDAC6, HDAC8",HDAC inhibitor
+LY-364947,169,93.41,TGF beta receptor inhibitor,"TGFBR1, CSNK1D, MAP4K4, WNK2","TGF beta receptor inhibitor, p38 MAPK inhibitor"
+NBQX,170,93.41,Glutamate receptor antagonist,"GRIA1, GRIA2, GRIA3, GRIA4, GRIK1, GRIN1, GRIN2A, GRIN2B",Glutamate receptor antagonist
+Dephostatin,173,93.31,Tyrosine phosphatase inhibitor,"PTPN1, PTPN6",Tyrosine phosphatase inhibitor
+Triprolidine,179,92.98,Histamine receptor antagonist,HRH1,Histamine receptor antagonist
+Triptolide,187,92.49,RNA polymerase inhibitor,"CYP2C19, RELA, F2RL1, PTGS2",RNA polymerase inhibitor
+Levocetirizine,188,92.44,Histamine receptor antagonist,"HRH1, CXCL8",Histamine receptor antagonist
+Quercetagetin,193,92.05,PIM inhibitor,"PIM1, MAPK8",PIM inhibitor
+Altrenogest,194,91.97,Progestogen hormone,PGR,Progestogen hormone
+EHNA,200,91.65,Adenosine deaminase inhibitor,"ADA, PDE2A, ADORA2A, ADA2, AMPD3, AMPD2, AMPD1, ADORA1, ADORA2B",Adenosine deaminase inhibitor
+RO-3306,201,91.57,CDK inhibitor,CDK1,CDK inhibitor
+RG-13022,205,91.48,PDGFR receptor inhibitor,"EGFR, PDGFRA, PDGFRB",PDGFR receptor inhibitor
+Isoxsuprine,206,91.42,Adrenergic receptor agonist,ADRB2,Adrenergic receptor agonist
+Tivozanib,207,91.36,VEGFR inhibitor,"FLT1, FLT4, KDR, KIT, PDGFRA, PDGFRB",VEGFR inhibitor
+LY-2140023,209,91.26,Glutamate receptor agonist,"GRM3, GRM2",Glutamate receptor agonist
+Carteolol,211,91.19,Adrenergic receptor antagonist,"ADRB1, ADRB2",Adrenergic receptor antagonist
+BRD-A80383043,214,91,Glutamate receptor agonist,"GRM1, GRM2","Glutamate receptor agonist, Glutamate receptor antagonist"
+ML-9,216,90.85,Myosin light chain kinase inhibitor,"MLCK, TRPC6, PKA, PKC",Myosin light chain kinase inhibitor
+Pirlindole,219,90.68,Monoamine oxidase inhibitor,"MAOA, SLC6A2, SLC6A4, HTR1A, ADRA2A",Monoamine oxidase inhibitor
+Droxinostat,221,90.59,HDAC inhibitor,"HDAC6, HDAC8",HDAC inhibitor
+Ciglitazone,223,90.42,PPAR receptor agonist,"PPARG, INS, CA2, MAOB",PPAR receptor agonist
+Z-Pro-Prolinal,226,90.1,Prolyl endopeptidase inhibitor,"PREP, CELA1",Prolyl endopeptidase inhibitor
