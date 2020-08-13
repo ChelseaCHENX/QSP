@@ -25,6 +25,7 @@ module_dict = {
     'IFN':[x for x in m1 if x in net_nodes],
     'Cytokine':[x for x in m2 if x in net_nodes],
 }
+# 110 NODES, 169 Nodes => 279 nodes * 3 targets * 2 lines = ??
 
 snodes = module_dict['IFN'] + module_dict['Cytokine']
 for drug in drugs:
@@ -37,7 +38,7 @@ def create_logger(logPath=None):
     """
     Creates a logging object and returns it
     """
-    logger = logging.getLogger("example_logger")
+    logger = logging.getLogger("qsp_logger")
     logger.setLevel(logging.INFO)
     # create the logging file handler
     fh = logging.FileHandler(logPath)
@@ -56,7 +57,7 @@ def calc_drug_modules(drug, source=source, source_dict=source_dict, net_nodes=ne
     logger.info(drug)
 
     nodes_from = [x.strip() for x in source[drug].split(',') if source_dict[x.strip()] in net_nodes]
-    nodes_from_ensp = [source_dict[x] for x in nodes_from]   
+    nodes_from_ensp = [source_dict[x] for x in nodes_from] 
 
     tmp = [] 
     
@@ -64,7 +65,7 @@ def calc_drug_modules(drug, source=source, source_dict=source_dict, net_nodes=ne
     #     print(datetime.datetime.now().time())  
         for module_name, nodes_to_ensp in module_dict.items():
             try:
-                d, z, (mean, sd) = wrappers.calculate_proximity(network, nodes_from_ensp, nodes_to_ensp, min_bin_size = 2, seed=452456, logger=logger)
+                d, z, (mean, sd) = wrappers.calculate_proximity(network, nodes_from_ensp, nodes_to_ensp, drug_name=drug, min_bin_size = 100, seed=452456, logger=logger)
             except:
                 d,z,mean,sd = 0,0,0,0
             tmp.extend([d,z,mean,sd])
@@ -78,20 +79,22 @@ def calc_drug_modules(drug, source=source, source_dict=source_dict, net_nodes=ne
 
 if __name__ == '__main__':
 
+    import multiprocessing
     from multiprocessing import Pool
-    num_of_cores = 60
-    pool = Pool(num_of_cores)
-    # pool.map(test , source.index.tolist())
-    # results = []
-    # for x in source.index.tolist():
-    #     tmp = calc_drug_modules(x)
-    #     results.append(tmp)
+    import os
+    import sys
 
+    sys.path.append(os.getcwd())
+
+    try:
+        ncpus = int(os.environ["SLURM_JOB_CPUS_PER_NODE"])
+    except KeyError:
+        ncpus = multiprocessing.cpu_count()
+
+    # print(ncpus)
+    pool = Pool(ncpus)
     results = pool.map(calc_drug_modules, source.index.tolist())
-    # print(results)
+
     fname = wkdir+'/data/netdist/netdist.pkl'
     with open(fname,'wb') as f:
         pickle.dump(results, f)
-
-# results = [pool.apply_async(parzen_estimation, args=(samples, x, w)) for w in widths]
-# res_df = pd.DataFrame(data=np.array(res_list), index=source.index, columns=[m+'_'+x for m in module_dict for x in ['d','z','mean','sd']])

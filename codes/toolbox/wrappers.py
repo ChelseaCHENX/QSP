@@ -533,7 +533,7 @@ def overlap_significance(geneids1, geneids2, nodes, method="hyper"):
 
 ##### Proximity related #####
 
-def calculate_proximity(network, nodes_from, nodes_to, nodes_from_random=None, nodes_to_random=None, bins=None, n_random=1000, min_bin_size=100, seed=452456, lengths=None,
+def calculate_proximity(network, nodes_from, nodes_to, drug_name=None, nodes_from_random=None, nodes_to_random=None, bins=None, n_random=1000, min_bin_size=100, seed=452456, lengths=None,
                         logger=None):
     """
     Calculate proximity from nodes_from to nodes_to
@@ -567,6 +567,7 @@ def calculate_proximity(network, nodes_from, nodes_to, nodes_from_random=None, n
 	z = 0.0
     else:
 	z = (d - m) / s
+    logger.info('%s - %s - %s - %s - %s - %s',"Final Result d z m s:", drug, str(d), str(z), str(m), str(s)) 
     return d, z, (m, s) #(z, pval)
 
 
@@ -601,17 +602,17 @@ def calculate_proximity_multiple(network, from_file=None, to_file=None, n_random
 
 
 def calculate_closest_distance(network, nodes_from, nodes_to, lengths=None, logger=None): # added verbose
-    import datetime
+
     values_outer = []
     if lengths is None:
 	for node_from in nodes_from:
 	    values = []
 	    for node_to in nodes_to:
                 if logger:
-                    logger.info(datetime.datetime.now().time()) 
+                    logger.info('%s - %s - %s',"start",node_from, node_to) 
 		val = network_utilities.get_shortest_path_length_between(network, node_from, node_to)
                 if logger:
-                    logger.info(datetime.datetime.now().time()) 
+                    logger.info('%s - %s - %s - %s',"end",node_from, node_to, str(val)) 
 		values.append(val)
 	        d = min(values)
 	    #print d,

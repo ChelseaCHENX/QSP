@@ -4,3 +4,4 @@ DIAMOnD not found and thus will not be available!
 Warning: Ignored extra columns in the file!
 Shrinking network to its LCC 12479 331370
 Final shape: 12107 331082
+slurmstepd: error: *** JOB 1681701 ON g011 CANCELLED AT 2020-08-08T14:18:44 DUE TO TIME LIMIT ***
